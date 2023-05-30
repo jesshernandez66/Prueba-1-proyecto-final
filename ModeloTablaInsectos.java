@@ -96,8 +96,9 @@ public class ModeloTablaInsectos implements TableModel {
         //Con lo siguiente obtendremos un objeto que esté en la posición que nos estén mandando
         Insectos tmp = datos.get(rowIndex);
         switch (columnIndex){
+        // Desde aquí ya valió vergotaXDDDD
             case 0:
-                return tmp.get
+                return tmp.get  
         }
         return null;
     }
